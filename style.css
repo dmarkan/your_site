@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lucida grande', arial, tahoma, sans-serif;
+}
+
+body {
+    background-color: #000;
+    cursor: default;
+}
+
+header {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    background-color: #7676 ;
+    padding: 2%;
+}
+
+header p {
+    left: 4%;
+    bottom: 12%;
+    position: absolute;
+    color: #FDFDFD;
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    word-spacing: 1em;
+}
+
+li {
+    display: inline;  
+    word-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #767676;
+}
+
+a:hover {
+    color: #FDFDFD;
+    transition: all 1s;
+}
+
+nav {
+    padding-top: 1%;
+    background-color: #7676;
+    font-size: 1em;
+}
+
+.naslov {
+    color: #6A7919;
+    margin: auto;
+    font-size: 2em;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+main {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    background-color: #7676;
+    padding:2%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+main p {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1em;
+    background-color: #FDFDFD;
+}
+
+main p:nth-child(3) {
+    padding-top: 5%;
+    
+}
+
+main p:nth-child(5) {
+    padding-top: 3%; 
+    padding-bottom: 3%;  
+}
+
+footer {
+    font-size: 1em;
+    color: #767676;
+    margin: auto;
+    width: 80%;
+    border: solid #7676 1px;
+    padding: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    background-color: #7676;
+}
